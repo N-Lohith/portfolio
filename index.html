@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Nallapu Lohith, a developer passionate about building impactful tech solutions.">
+    <title>Nallapu Lohith - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com?id"></script>
+    <style>
+        /* Custom styles for accessibility and a warm, personal touch */
+        :focus {
+            outline: 3px solid #FF8C00; /* Warm orange for focus */
+            outline-offset: 2px;
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+        /* Gradient header to reflect my personality */
+        header {
+            background: linear-gradient(to right, #FF8C00, #FFA500);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:bg-orange-500 focus:text-white focus:p-2">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="text-white py-8">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-center">Nallapu Lohith</h1>
+            <p class="text-lg md:text-xl text-center mt-2">Java Developer | IoT Innovator | Tech Enthusiast</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-4">
+            <ul class="flex justify-center space-x-6" role="navigation">
+                <li><a href="#about" class="hover:text-orange-300 focus:text-orange-300 transition">About</a></li>
+                <li><a href="#projects" class="hover:text-orange-300 focus:text-orange-300 transition">Projects</a></li>
+                <li><a href="#skills" class="hover:text-orange-300 focus:text-orange-300 transition">Skills</a></li>
+                <li><a href="#contact" class="hover:text-orange-300 focus:text-orange-300 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container mx-auto px-4 py-8">
+        <!-- About Section -->
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-orange-800">About Me</h2>
+            <p class="text-lg">Hi, I’m Nallapu Lohith! I’m a Java Developer with a knack for building user-friendly applications and innovative IoT solutions. I honed my skills during an internship at HCL, where I worked on an Online Quiz Application, and I’ve since explored projects like smart streetlight monitoring. I love tackling real-world problems with tech—let’s build something amazing!</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-orange-800">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <article class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-2">Online Employee Management System</h3>
+                    <p>Developed an employee management system using Java Swing and MySQL. The application is built with a user-friendly interface using Java Swing. The system includes comprehensive employee details such as employee name, father’s name, date of birth, and salary, all stored in a structured SQL database. It allows for efficient data management and retrieval. I enjoyed making the UI intuitive!</p>
+                    <a href="https://github.com/N-Lohith/Employee-Management-System" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline mt-2 inline-block" aria-label="View Online Employee Management System project">View Project</a>
+                </article>
+                <article class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-2">Online Quiz Application</h3>
+                    <p>Developed an Online Quiz Application as part of an internship at HCL. Technologies used: HTML, CSS, JavaScript. It has an HTML structure designed to ensure the user interface is clear and easy to use. Incorporated engaging GIFs and stickers to enhance the visual appeal and improve the user experience. This was a fun project to make learning interactive!</p>
+                    <a href="https://github.com/N-Lohith/Online-Quiz-Application" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline mt-2 inline-block" aria-label="View Online Quiz Application project">View Project</a>
+                </article>
+                <article class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-2">Online Food Delivery System</h3>
+                    <p>Built an Online Food Delivery System with a front end using Java Swing, a back end with MySQL, and Java as the middle tier. The system allows users to browse restaurants, view menus, place orders, and track deliveries. I focused on making the interface smooth and the database efficient for quick order processing. A great learning experience!</p>
+                    <a href="https://github.com/N-Lohith/Online-Food-Delivery-System" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline mt-2 inline-block" aria-label="View Online Food Delivery System project">View Project</a>
+                </article>
+                <article class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-2">Smart Monitoring of Streetlights Using IoT</h3>
+                    <p>Developed an IoT-based system to monitor and control streetlights, designed to save power by turning on lights only at night when needed. Used LDR and IR sensors with an Arduino board to detect light levels and motion. This project is all about efficiency and sustainability—I’m passionate about smart city solutions!</p>
+                    <!-- Placeholder URL: Replace with the actual GitHub link for this project -->
+                    <a href="https://github.com/N-Lohith/smart-streetlight-monitoring" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline mt-2 inline-block" aria-label="View Smart Monitoring of Streetlights Using IoT project">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-orange-800">Skills</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">Java</li>
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">SQL</li>
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">HTML</li>
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">CSS</li>
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">JavaScript</li>
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">React JS</li>
+                <li class="bg-orange-50 text-orange-700 p-3 rounded-lg text-center">Leadership</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-orange-800">Contact</h2>
+            <p class="text-lg mb-4">I’d love to connect and discuss tech, projects, or ideas. Reach out anytime!</p>
+            <ul class="space-y-2">
+                <li><strong>Email:</strong> <a href="mailto:nallapulohith@gmail.com" class="text-orange-600 hover:underline">nallapulohith@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lohith-nallapu/" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline" aria-label="Visit Lohith's LinkedIn profile">linkedin.com/in/lohith-nallapu</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/N-Lohith" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline" aria-label="View Lohith's GitHub profile">github.com/N-Lohith</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Nallapu Lohith. Crafted with passion and a lot of code!</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Smooth Scrolling and Accessibility -->
+    <script>
+        // Smooth scrolling for nav links—makes navigation feel seamless
+        // Only apply to in-page links starting with #
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                    targetElement.setAttribute('tabindex', '-1');
+                    targetElement.focus();
+                }
+            });
+        });
+
+        // Ensure external links (like View Project) aren't affected by the above script
+        document.querySelectorAll('a[target="_blank"]').forEach(link => {
+            link.addEventListener('click', function (e) {
+                // No preventDefault here, let the link open normally
+                console.log('Navigating to external link:', this.href);
+            });
+        });
+
+        // Keyboard navigation—wanted to ensure everyone can use this site
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Tab') {
+                const focusableElements = document.querySelectorAll('a[href], button, input, textarea, select, [tabindex]:not([tabindex="-1"])');
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+                if (e.shiftKey && document.activeElement === firstElement) {
+                    e.preventDefault();
+                    lastElement.focus();
+                } else if (!e.shiftKey && document.activeElement === lastElement) {
+                    e.preventDefault();
+                    firstElement.focus();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
